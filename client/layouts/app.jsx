@@ -1,14 +1,16 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import Routes from './routes';
+import Header from './header';
+import Footer from './footer';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        {/*<Header />*/}
-        <Routes />
-        {/*<Footer />*/}
+      <div id="container">
+        <Header id="header" />
+        <Routes id="body" />
+       	<Footer id="footer" />
       </div>
     )
   }

@@ -7,7 +7,9 @@ class Home extends Component {
 
   render() {
     return (
-      <div> HOME</div>
+      <div className={'container-fluid'} style={{paddingTop: '100px', paddingBottom: '100px'}}>
+        HOME
+      </div>
     );
   }
 }

@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import {Switch, Route} from 'react-router';
-import {Redirect} from 'react-router-dom';
+import React, { Component } from 'react';
+import { Switch} from 'react-router';
+import { Redirect, Route } from 'react-router-dom';
 
 import Home from '../components/home'
 import RecipeBook from '../components/recipe-book';
